@@ -4,6 +4,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -11,39 +14,168 @@
     <!-- Custom Css -->
     <link rel="stylesheet" href="/assets/css/main.css">
 
-    <title>Hello, world!</title>
+    <title>Art Portfolio</title>
   </head>
-  <body>
+  <body id="top">
     <!-- s1_header -->
-        <section>
-            <h1>Home Of Art</h1> 
-            <ul>
-                <li>iDraw</li>
-                <li>iPaint</li>
-                <li>iCreate</li>
+        <section id="s1_header">
+          <nav class="navbar navbar-expand-lg">
+          <div class="container">
+           <a class="navbar-brand" href="#top"><img src="/assets/images/nav_image.png" alt=""></a>
+           
+           <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="" role="button" ><img src="/assets/images/nav_icon_toggle.png" alt=""></span>
+            </button>
+           
+           <div class="collapse navbar-collapse" id="navbarResponsive">
+               <ul class="navbar-nav ml-auto">
+                   <li class="nav-items"><a href="#s1_header" class="nav-link">Home</a></li>
+                   <li class="nav-items"><a href="#s2_aboutme" class="nav-link">About Me</a></li>
+                   <li class="nav-items"><a href="#s3_gallery" class="nav-link">Gallery</a></li>
+                   <li class="nav-items"><a href="#s4_prices" class="nav-link">Prices</a></li>
+                   <li class="nav-items"><a href="#s5_contactme" class="nav-link">Contact Me</a></li>
+               </ul>
+           </div>
+           
+          </div>
+      </nav>
+          
+           <div class="container s1_header_grid">
+            <h1 class="head_header">Home Of Art</h1> 
+            
+            <ul class="list-unstyled list-inline head_desc">
+                <li class="list-inline-item sub_space">iDraw</li>
+                <li class="list-inline-item sub_space"><img src="/assets/images/dot.png" alt=""></li>
+                <li class="list-inline-item sub_space">iPaint</li>
+                <li class="list-inline-item sub_space"><img src="/assets/images/dot.png" alt=""></li>
+                <li class="list-inline-item sub_space">iCreate</li>
             </ul> 
-            <ul>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
+            
+            <ul class="list-unstyled list-inline head_icons">
+                <li class="list-inline-item pr-3"><img src="/assets/images/instagram.png" alt=""></li>
+                <li class="list-inline-item pr-3"><img src="/assets/images/twitter.png" alt=""></li>
+                <li class="list-inline-item pr-3"><img src="/assets/images/shutterstock.png" alt=""></li>
+                <li class="list-inline-item pr-3"><img src="/assets/images/pinterest.png" alt=""></li>
             </ul>
+            
+           </div>  
         </section>
     <!-- s2_aboutme -->
-        <section>
-            
+        <section id="s2_aboutme">
+           <div class="container py-5 text-white s2_aboutme_grid">
+            <img class="img-fluid about_img" src="/assets/images/aboutimage.png" alt="">    
+            <h2 class="about_header">About <span class="me_line">Me</span></h2>
+            <aside class="about_details">
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor</p>
+            <button class="about_button"><span>Contact Me</span></button>
+            </aside>
+           </div> 
         </section>
     <!-- s3_gallery -->
-        <section>
-            
+        <section id="s3_gallery">
+           <div class="container py-5">
+            <h2 class="text-center gallery_header">Gall<span class="e_underline">e</span>ry</h2>
+                <ul class="list-unstyled list-inline text-center">
+                    <li class="list-inline-item pr-5"><a href="">All</a></li>
+                    <li class="list-inline-item pr-5"><a href="">Portraits</a></li>
+                    <li class="list-inline-item pr-5"><a href="">Landscapes</a></li>
+                    <li class="list-inline-item"><a href="">Abstracts</a></li>
+                </ul>
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+              <div class="container text-center">
+                <button class="view_button"><span>View More</span></button>
+              </div>
+            </div>    
         </section>
     <!-- s4_prices -->
-        <section>
-            
+        <section id="s4_prices">
+           <div class="container pt-5">
+            <h2 class="text-center price_header">Pric<span class="e_underline">e</span>s</h2>
+                <div class="container py-5">
+  <div class="row">
+    <div class="col-md hover_test p-5">
+      <h5 class="text-center portrait_text">Portraits</h5>
+          <div class="d-flex flex-row justify-content-between">
+              <div class="p-2">Pencil Portraits</div>
+              <div class="p-2">$125</div>
+          </div>
+          <div class="d-flex flex-row justify-content-between">
+              <div class="p-2">Pencil Portraits</div>
+              <div class="p-2">$125</div>
+          </div>
+          <div class="d-flex flex-row justify-content-center pt-5">
+              <button class="invibutton price_button"><span>Book Now</span></button>
+          </div>
+    </div>
+    
+    <div class="col-md hover_test p-5">
+      <h5 class="text-center portrait_text">Portraits</h5>
+          <div class="d-flex flex-row justify-content-between">
+              <div class="p-2">Pencil Portraits</div>
+              <div class="p-2">$125</div>
+          </div>
+          <div class="d-flex flex-row justify-content-between">
+              <div class="p-2">Pencil Portraits</div>
+              <div class="p-2">$125</div>
+          </div>
+          <div class="d-flex flex-row justify-content-center pt-5">
+              <button class="invibutton price_button"><span>Book Now</span></button>
+          </div>
+    </div>
+    
+    <div class="col-md hover_test p-5">
+      <h5 class="text-center portrait_text">Portraits</h5>
+          <div class="d-flex flex-row justify-content-between">
+              <div class="p-2">Pencil Portraits</div>
+              <div class="p-2">$125</div>
+          </div>
+          <div class="d-flex flex-row justify-content-between">
+              <div class="p-2">Pencil Portraits</div>
+              <div class="p-2">$125</div>
+          </div>
+          <div class="d-flex flex-row justify-content-center pt-5">
+              <button class="invibutton price_button"><span>Book Now</span></button>
+          </div>
+    </div>
+  </div>
+</div>
+           </div>
         </section>
     <!-- s5_contactme -->
-        <section>
-            
+        <section id="s5_contactme">
+           <div class="container py-3 text-white s5_contactme_grid">
+           
+           <aside class="contact_info">
+            <h2 class="contact_heading">Contact <span class="me_line">Me</span></h2>
+            <p class="contact_body">Alabaarts@hng.com</p>
+            <p class="contact_body">+123 456 789 098 765</p>
+           </aside>
+           
+           <aside class="page_info">
+            <ul class="list-unstyled">
+                <li class="contact_list"><a href="" class="text-white">Home</a></li>
+                <li class="contact_list"><a href="" class="text-white">About Me</a></li>
+                <li class="contact_list"><a href="" class="text-white">Gallery</a></li>
+                <li class="contact_list"><a href="" class="text-white">Prices</a></li>
+            </ul>
+           </aside>
+           
+           <aside class="contact_email">
+            <p class="stay_in_touch">Stay In Touch</p>
+            <form action="" class="form-group in_display">
+                <input type="text" placeholder="Email" class="form-control vanish">
+                <button class="email_button"><span>Send</span></button>
+            </form>
+           </aside>
+            </div>
         </section>
     
     
