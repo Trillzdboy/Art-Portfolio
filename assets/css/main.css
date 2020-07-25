@@ -529,6 +529,7 @@ body{
     .vanish{
     border: 1px solid #F66E44;
     height: 39px!important;
+    min-width: 333px;
     background-color: #000000;
 }
     .email_button{
