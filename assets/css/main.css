@@ -346,6 +346,12 @@ body{
     line-height: 49px;
     color: #3F3F3F;
 }
+.modal-content{
+    background: rgba(0, 0, 0, 0.4);
+}
+.img_pointer{
+    cursor: pointer;
+}
 
 /*-------------- s4_prices ----------------*/
 #s4_prices{
@@ -460,19 +466,23 @@ body{
 
 .s5_contactme_grid{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(1, auto);
-    grid-template-areas: "contact_info page_info contact_email contact_email"
+    grid-template-areas: "contact_info page_info contact_email contact_email contact_email"
 }
 .contact_info{
     grid-area: contact_info;
+    grid-column: 1/3;
 }
 .page_info{
     grid-area: page_info;
-    text-align: center;
+    grid-column: 3;
+    text-align:;
 }
 .contact_email{
     grid-area: contact_email;
+    grid-column: 4/6;
+    padding-left: 20%;
 }
 
 @media (max-width: 992px){
@@ -495,6 +505,7 @@ body{
 }
     .contact_email{
     grid-area: contact_email;
+    padding-left: 0%;
 }
   .contact_heading{
     font-family: Montserrat;
@@ -529,7 +540,7 @@ body{
     .vanish{
     border: 1px solid #F66E44;
     height: 39px!important;
-    min-width: 333px;
+    min-width: 300px!important;
     background-color: #000000;
 }
     .email_button{
@@ -628,6 +639,7 @@ a:hover{
 }
 .vanish{
     border: 1px solid #F66E44;
+    min-width: ;
     height: 58px;
     background-color: #000000;
 }
