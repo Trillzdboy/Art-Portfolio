@@ -496,6 +496,36 @@ body{
     .contact_email{
     grid-area: contact_email;
 }
+  .contact_heading{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px!important;
+    line-height: 34px!important;
+}  
+    .contact_body{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px!important;
+    line-height: 18px!important;
+}
+    .contact_list{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px!important;
+    line-height: 18px!important;
+    margin-bottom: 10px;
+}
+    .stay_in_touch{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px!important;
+    line-height: 18px!important;
+    padding-bottom: 35px;
+}
 }
 
 .contact_heading{
@@ -521,6 +551,11 @@ body{
     margin-bottom: 10px;
 }
 .stay_in_touch{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
     padding-bottom: 35px;
 }
 
@@ -574,7 +609,7 @@ a:hover{
 .vanish{
     border: 1px solid #F66E44;
     padding: 11px 43px;
-    height: 49px;
+    height: 58px;
     background-color: #000000;
 }
 .email_button{
