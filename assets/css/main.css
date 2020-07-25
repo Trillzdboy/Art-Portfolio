@@ -526,6 +526,25 @@ body{
     line-height: 18px!important;
     padding-bottom: 35px;
 }
+    .vanish{
+    border: 1px solid #F66E44;
+    height: 39px!important;
+    background-color: #000000;
+}
+    .email_button{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px!important;
+    line-height: 13px!important;
+    color: #FFFFFF;
+    background-color: #F66E44;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #F66E44;
+}
 }
 
 .contact_heading{
@@ -608,7 +627,6 @@ a:hover{
 }
 .vanish{
     border: 1px solid #F66E44;
-    padding: 11px 43px;
     height: 58px;
     background-color: #000000;
 }
